@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "encore dev --watch",
     "prod": "encore production",
-    "serve": "bundle exec jekyll serve",
+    "serve": "bundle exec jekyll serve -w",
     "build": "bundle exec jekyll build",
     "favicon": "gulp favicon"
   },
