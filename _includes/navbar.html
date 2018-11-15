@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-theme">
+    <div class="container">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            {{ site.title }}
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item{% if '/index.html' == page.url %} active{% endif %}">
+                    <a href="{{ '/index.html' | prepend: site.baseurl }}" class="nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item{% if '/about.html' == page.url %} active{% endif %}">
+                    <a href="{{ '/about.html' | prepend: site.baseurl }}" class="nav-link">
+                        About
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

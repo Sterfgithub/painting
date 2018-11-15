@@ -1,0 +1,35 @@
+---
+layout: default
+group: main
+title: Home
+permalink: /index.html
+---
+
+<div class="container bg-light">
+    <div class="row">
+        <div class="col-12 col-lg-3 bg-theme text-light py-3">
+            <img src="{{ '/img/header.jpg' | prepend: site.baseurl }}" alt="" class="img-fluid">
+            <h1>My title</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda debitis, distinctio
+                dolorem earum eligendi enim esse eum ex, nam neque quia repudiandae sit soluta, suscipit tenetur
+                veritatis voluptatibus voluptatum!
+            </p>
+        </div>
+        <div class="col-12 col-lg-9 py-3">
+            <h2>My Paintings</h2>
+            <div class="row">
+                {% for post in site.posts %}
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="painting" style="background-image: url({{ post.image | prepend: site.baseurl }})">
+                            <h5 class="painting-title">
+                                {{ post.title }}
+                            </h5>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</div>

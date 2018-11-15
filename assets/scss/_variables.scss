@@ -1,0 +1,15 @@
+$theme-colors: map-merge((
+        "theme": #4A3D47
+), $theme-colors);
+
+$body-bg: #ecf0f1;
+//$body-color: #F2F2F2;
+//$link-color: #ccc;
+$enable-rounded: false;
+$thumbnail-padding: $spacer;
+$thumbnail-border-width: 0;
+//$primary: #0063B1;
+//$thumbnail-border-color: #2B2B2B;
+//$hr-border-color: #2B2B2B;
+//$light: #CCCCCC;
+$thumbnail-bg: #120E0F;

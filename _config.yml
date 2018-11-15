@@ -1,0 +1,26 @@
+title: painting
+email: disjfa@disjfa.nl
+description: >
+  Project website. All my projects bundled into one, here you can check out my projects and check what you want to use maybe.
+  I like to use css, javascript, npm, bootstrap, symfony, jekyll and such.
+baseurl: "/painting"
+url: "https://disjfa.github.io"
+#twitter_username: disjfa
+#github_username:  disjfa
+
+markdown: kramdown
+host: 0.0.0.0
+
+google_analytics: UA-83598448-1
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - assets
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - README.md
+  - webpack.config.js
+  - gulpfile.js

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="bg-dark">
+<div class="ryoko ryoko-30 justify-content-end" style="background-image: url({{ '/img/painting/seagul.jpg' | prepend: site.baseurl }})">
+    <div class="px-3 py-3 f-flex align-self-end">
+        <h3 class="text-light site-title">{{ site.title }}</h3>
+    </div>
+</div>
+<main role="main" class="bg-white">
+    {{ content }}
+</main>
+
+{% include footer.html %}
+</body>
+</html>
