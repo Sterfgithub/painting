@@ -1,0 +1,9 @@
+---
+layout: post
+title: Sammy
+date: 2018-05-05 14:17:01 +0200
+image: /img/painting/Sammy-2.jpg
+---
+
+Sammy, in the box
+
