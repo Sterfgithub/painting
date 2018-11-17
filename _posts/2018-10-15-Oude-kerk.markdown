@@ -2,7 +2,7 @@
 layout: post
 title: Oude kerk
 date: 2018-10-03 14:17:01 +0200
-image: /img/painting/oude-kerk.jpg
+image: /img/painting/Oude-kerk.jpg
 ---
 
 Oude kerk at night
